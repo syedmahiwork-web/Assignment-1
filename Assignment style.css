@@ -8,6 +8,11 @@ nav .menu{display: flex;
 list-style: none;
 gap: 51px;
 align-items: center;
+justify-content: space-between;
+padding: 16px 120px 16px 120px;
+font-size: 16px;
+
+}
 .btn{background-color:#469165;
     color: aliceblue;
     width: 164px;
@@ -16,7 +21,49 @@ align-items: center;
     padding: 12px 16px 12px 16px;
     border: none;
     cursor: pointer;
-}}
+}
 .btn:hover{
 background-color: azure;
+color: black;
 }
+.color-green{
+    color: green;
+}
+
+#banner{
+    border: 1px solid rebeccapurple;
+    /* display: flex; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#banner .banner-content h1 {
+    font-size: 72px;
+
+ }
+ .p{font-weight: 400;
+size: 18px;
+letter-spacing: 0%;}
+.btn{
+    background-color: #469165;
+    width: 251px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+
+}
+.btn2{
+  background-color: none
+    width: 300px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+
+ }
+ #notes h1{
+
+    font-weight: bold;
+    text-align: center;
+
+ }
